@@ -121,8 +121,7 @@ def login():
         return False
 
 
-def exit_app():
-    print("Exiting the application.")
+
     mydb.close()
 
 if __name__ == "__main__":
